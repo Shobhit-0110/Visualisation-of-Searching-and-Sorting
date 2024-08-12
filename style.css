@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #00c6ff, #0072ff); /* Static background color */
+    background: url(https://www.shutterstock.com/shutterstock/photos/793650382/display_1500/stock-vector-magnifying-glass-repeating-rotating-and-changing-size-icons-wallpaper-web-template-grey-elements-793650382.jpg)
     /* Removed backgroundAnimation keyframes */
 }
 
@@ -16,12 +16,26 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+
+    .correction{
+        display: flex;
+        justify-content: space-around;
+
+
+                  #searchNumber{
+                    padding: 10px;
+                    padding-left: 10px;
+                  }
+    }
 }
 
 h1, .header {
     margin-bottom: 20px;
-    color: #fff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: #555855ea;
+    font-size: xx-large;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+    margin-top: 10px;  
+
 }
 
 button {
@@ -53,17 +67,6 @@ select {
     margin: 10px auto;
 }
 
-input[type="text"] {
-    width: 250px;
-    display: block;
-    margin: 20px auto;
-}
-
-input[type="range"] {
-    width: 200px;
-    display: block;
-    margin: 20px auto;
-}
 
 #array {
     background-color: white;
@@ -95,11 +98,15 @@ input[type="range"] {
 }
 
 #message {
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 300;
     text-align: center;
     color: green;
-    margin-top: 20px;
+    margin-top: 5px;
+    padding-bottom: 10px;
 }
 
-/* Removed keyframes for background animation */
-/* Removed keyframes for array animation */
+#speedSlider{
+    font-size: 25px;
+    color: #555855;
+}
